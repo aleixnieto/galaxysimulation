@@ -1,6 +1,6 @@
 CC = gcc
-CFLAGS = -Wall -O3 -march=native -fopt-info-vec -ffast-math -funroll-loops
-LDFLAGS = -lm $(shell pkg-config --libs x11)
+CFLAGS = -Wall -O3 -march=native -fopt-info-vec -ffast-math -funroll-loops -fopenmp
+LDFLAGS = -lm $(shell pkg-config --libs x11) -fopenmp
 
 all: galsim compare_gal_files
 

@@ -1,0 +1,71 @@
+The following results were obtained before velocity Verlet time integration was implemented.
+
+(base) aleix@aleixlaptop:~/Escritorio/HPP/PROJECT$ ./theta_tuning
+Starting θ_max tuning...
+
+Testing θ_max = 0.020
+Simulation completed in 7.474048 seconds (using 8 threads).
+   pos_maxdiff = 0.000003664
+Testing θ_max = 0.030
+Simulation completed in 6.570175 seconds (using 8 threads).
+   pos_maxdiff = 0.000004681
+Testing θ_max = 0.040
+Simulation completed in 5.859991 seconds (using 8 threads).
+   pos_maxdiff = 0.000019255
+Testing θ_max = 0.050
+Simulation completed in 5.037086 seconds (using 8 threads).
+   pos_maxdiff = 0.000018198
+Testing θ_max = 0.060
+Simulation completed in 3.590183 seconds (using 8 threads).
+   pos_maxdiff = 0.000053683
+Testing θ_max = 0.070
+Simulation completed in 3.785898 seconds (using 8 threads).
+   pos_maxdiff = 0.000072769
+Testing θ_max = 0.080
+Simulation completed in 3.879705 seconds (using 8 threads).
+   pos_maxdiff = 0.000073005
+Testing θ_max = 0.090
+Simulation completed in 3.414377 seconds (using 8 threads).
+   pos_maxdiff = 0.000140994
+Testing θ_max = 0.100
+Simulation completed in 3.216809 seconds (using 8 threads).
+   pos_maxdiff = 0.000155638
+Testing θ_max = 0.110
+Simulation completed in 3.570861 seconds (using 8 threads).
+   pos_maxdiff = 0.000193180
+Testing θ_max = 0.120
+Simulation completed in 2.638255 seconds (using 8 threads).
+   pos_maxdiff = 0.000281577
+Testing θ_max = 0.130
+Simulation completed in 2.388069 seconds (using 8 threads).
+   pos_maxdiff = 0.000300455
+Testing θ_max = 0.140
+Simulation completed in 2.068688 seconds (using 8 threads).
+   pos_maxdiff = 0.000422306
+Testing θ_max = 0.150
+Simulation completed in 2.598190 seconds (using 8 threads).
+   pos_maxdiff = 0.000464299
+Testing θ_max = 0.160
+Simulation completed in 2.028983 seconds (using 8 threads).
+   pos_maxdiff = 0.000577943
+Testing θ_max = 0.170
+Simulation completed in 1.947662 seconds (using 8 threads).
+   pos_maxdiff = 0.000518372
+Testing θ_max = 0.180
+Simulation completed in 1.969103 seconds (using 8 threads).
+   pos_maxdiff = 0.000671397
+Testing θ_max = 0.190
+Simulation completed in 2.304741 seconds (using 8 threads).
+   pos_maxdiff = 0.000870817
+Testing θ_max = 0.200
+Simulation completed in 1.881016 seconds (using 8 threads).
+   pos_maxdiff = 0.000712296
+Testing θ_max = 0.210
+Simulation completed in 1.659174 seconds (using 8 threads).
+   pos_maxdiff = 0.000922438
+Testing θ_max = 0.220
+Simulation completed in 1.848438 seconds (using 8 threads).
+   pos_maxdiff = 0.001069069
+   -> pos_maxdiff exceeded threshold! Stopping.
+
+Optimal θ_max for pos_maxdiff < 1e-3: θ_max = 0.210

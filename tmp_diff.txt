@@ -1,0 +1,4 @@
+N = 2000
+fileName1 = 'result.gal'
+fileName2 = 'reference_solution.gal'
+pos_maxdiff =   0.030466244543
