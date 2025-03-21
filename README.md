@@ -18,7 +18,7 @@ The goal of this project is to simulate the gravitational forces between particl
   - Stability analysis and parameter tuning for time steps (Δt).
 
 - **Performance Optimization:**
-  - Parallelization using Pthreads or OpenMP.
+  - Parallelization using OpenMP.
   - Runtime and complexity analysis comparing Barnes-Hut against direct computation.
   - Code optimization techniques learned throughout the course to achieve maximal performance.
 
