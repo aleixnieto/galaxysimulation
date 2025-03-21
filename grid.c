@@ -17,7 +17,7 @@ int main() {
                              0.75, 0.85, 0.9, 0.95};  
                             
 
-    double dt_values[] = {1e-5};
+    double dt_values[] = {1e-5, 2e-5, 5e-5};
     printf("Starting Barnes-Hut Optimization Study...\n\n");
 
     FILE *file = fopen("optimization_results.csv", "w");

@@ -39,7 +39,7 @@ int main() {
 
     printf("Starting Barnes-Hut Scaling Study (θ_max = 0.21)...\n\n");
 
-    FILE *file = fopen("scaling_results.csv", "w");
+    FILE *file = fopen("scaling_results_openmp.csv", "w");
     if (!file) {
         fprintf(stderr, "Error: Could not open output file.\n");
         return 1;
@@ -51,7 +51,7 @@ int main() {
 
         // Build command to execute galsim and measure time
         snprintf(galsim_cmd, MAX_CMD_LEN,
-                 "/usr/bin/time -f '%%e' ./galsim %d input_data/ellipse_N_%05d.gal 200 1e-5 0.21 0 8 2> tmp_time.txt",
+                 "/usr/bin/time -f '%%e' ./galsim %d input_data/ellipse_N_%05d.gal 200 1e-5 0.25 0 8 2> tmp_time.txt",
                  N, N);
         
         int status = system(galsim_cmd);

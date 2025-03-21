@@ -45,7 +45,6 @@ plt.plot(log_dt_verlet, np.log(first_order_errors), '--', label="Reference: O(Δ
 
 plt.xlabel("log(Δt)")
 plt.ylabel("log(pos_maxdiff)")
-plt.title("Convergence Study: Velocity Verlet vs. Symplectic Euler")
 plt.legend()
 plt.grid()
 plt.savefig("convergence_plot.png", dpi = 300)

@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
 N = np.array([1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000])
-execution_time = np.array([0.35000, 0.86000, 1.52000, 2.18000,
-                            3.00000, 4.29000, 5.09000, 6.09000, 7.00000, 7.89000])
+execution_time = np.array([0.29000, 0.78000, 1.30000, 1.94000,
+                            2.58000, 3.71000, 4.46000, 5.46000, 6.04000, 6.59000])
 
 # Define complexity functions
 def linear(N, a): return a * N
